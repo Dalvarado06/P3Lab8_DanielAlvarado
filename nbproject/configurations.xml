@@ -4,6 +4,14 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Alfil.h</itemPath>
+      <itemPath>Caballo.h</itemPath>
+      <itemPath>Partida.h</itemPath>
+      <itemPath>Peon.h</itemPath>
+      <itemPath>Pieza.h</itemPath>
+      <itemPath>Reina.h</itemPath>
+      <itemPath>Rey.h</itemPath>
+      <itemPath>Torre.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -12,7 +20,15 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Alfil.cpp</itemPath>
+      <itemPath>Caballo.cpp</itemPath>
       <itemPath>P3Lab8_DanielAlvarado.cpp</itemPath>
+      <itemPath>Partida.cpp</itemPath>
+      <itemPath>Peon.cpp</itemPath>
+      <itemPath>Pieza.cpp</itemPath>
+      <itemPath>Reina.cpp</itemPath>
+      <itemPath>Rey.cpp</itemPath>
+      <itemPath>Torre.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -36,7 +52,39 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="Alfil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Alfil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Caballo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Caballo.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="P3Lab8_DanielAlvarado.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Partida.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Partida.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Peon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Peon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Pieza.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Pieza.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Reina.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Reina.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Rey.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Rey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Torre.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Torre.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -59,7 +107,39 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Alfil.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Alfil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Caballo.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Caballo.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="P3Lab8_DanielAlvarado.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Partida.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Partida.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Peon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Peon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Pieza.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Pieza.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Reina.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Reina.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Rey.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Rey.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Torre.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Torre.h" ex="false" tool="3" flavor2="0">
       </item>
     </conf>
   </confs>
