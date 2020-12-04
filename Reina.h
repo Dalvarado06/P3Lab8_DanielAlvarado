@@ -16,7 +16,7 @@
 
 #include "Pieza.h"
 
-class Reina {
+class Reina : public Pieza{
 public:
     
     Reina();

@@ -66,3 +66,7 @@ void Partida::guardarPartida(){
     outPut << endl;
     
 }
+
+string Partida::getPieza(){
+    return pieza;
+}

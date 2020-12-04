@@ -16,8 +16,16 @@
 Pieza::Pieza() {
 }
 
+Pieza::Pieza(string pieza){
+    this->pieza = pieza;
+}
+
 Pieza::Pieza(const Pieza& orig) {
 }
 
 Pieza::~Pieza() {
+}
+
+bool Pieza::validarMoviemiento(string movimiento){
+    return false;
 }

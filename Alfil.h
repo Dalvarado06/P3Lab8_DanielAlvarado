@@ -16,7 +16,7 @@
 
 #include "Pieza.h"
 
-class Alfil {
+class Alfil : public Pieza {
 public:
     
     Alfil();

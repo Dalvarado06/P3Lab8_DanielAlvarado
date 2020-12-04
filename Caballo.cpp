@@ -16,6 +16,10 @@
 Caballo::Caballo() {
 }
 
+Caballo::Caballo(string pieza) : Pieza(pieza){
+    
+}
+
 Caballo::Caballo(const Caballo& orig) {
 }
 

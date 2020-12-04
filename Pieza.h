@@ -21,17 +21,19 @@ class Pieza {
 public:
     //Original
     Pieza();
+    //sobrecargado
+    Pieza(string);
     //Copia
     Pieza(const Pieza& orig);
     //Destructor
     virtual ~Pieza();
     
     //metodo polimorfico de validar movimiento
-    virtual bool validarMoviemiento(string) = 0;
+    virtual bool validarMoviemiento(string);
     
    
 private:
-
+    string pieza;
 };
 
 #endif /* PIEZA_H */

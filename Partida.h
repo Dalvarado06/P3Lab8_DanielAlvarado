@@ -41,6 +41,8 @@ public:
     
     void setJugadas(vector<string>);
     
+    string getPieza();
+    
 private:
     string nombrePartida;
     vector<string> jugadas;

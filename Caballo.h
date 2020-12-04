@@ -21,6 +21,8 @@ public:
     
     Caballo();
     
+    Caballo(string);
+    
     Caballo(const Caballo& orig);
     
     virtual ~Caballo();
