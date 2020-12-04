@@ -39,6 +39,8 @@ public:
 
     void guardarPartida();
     
+    void setJugadas(vector<string>);
+    
 private:
     string nombrePartida;
     vector<string> jugadas;

@@ -30,6 +30,20 @@ Partida::Partida(const Partida& orig) {
 Partida::~Partida() {
 }
 
+void Partida::setJugadas(vector<string> jugadasLeidas){
+    
+    jugadas.clear();
+    
+    int size = jugadasLeidas.size();
+    
+    for(int i = 0; i < size; i++){
+        
+        string jugada = jugadasLeidas[i];
+        
+        jugadas.push_back(jugada);
+    }
+}
+
 void Partida::guardarPartida(){
     
     ofstream outPut;
