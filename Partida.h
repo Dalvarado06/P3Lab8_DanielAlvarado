@@ -43,6 +43,8 @@ public:
     
     string getPieza();
     
+    string getNombre();
+    
 private:
     string nombrePartida;
     vector<string> jugadas;

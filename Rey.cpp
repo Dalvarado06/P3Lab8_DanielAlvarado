@@ -16,6 +16,10 @@
 Rey::Rey() {
 }
 
+Rey::Rey(char pieza) : Pieza(pieza){
+    
+}
+
 Rey::Rey(const Rey& orig) {
 }
 

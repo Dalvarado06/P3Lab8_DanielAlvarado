@@ -16,6 +16,10 @@
 Peon::Peon() {
 }
 
+Peon::Peon(char pieza) : Pieza(pieza){
+    
+}
+
 Peon::Peon(const Peon& orig) {
 }
 

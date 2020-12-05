@@ -21,7 +21,7 @@ public:
     
     Caballo();
     
-    Caballo(string);
+    Caballo(char);
     
     Caballo(const Caballo& orig);
     

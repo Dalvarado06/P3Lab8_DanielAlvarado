@@ -21,6 +21,8 @@ public:
     
     Alfil();
     
+    Alfil(char);
+    
     Alfil(const Alfil& orig);
     
     virtual ~Alfil();

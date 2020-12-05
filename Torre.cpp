@@ -16,6 +16,10 @@
 Torre::Torre() {
 }
 
+Torre::Torre(char pieza) : Pieza(pieza){
+    
+}
+
 Torre::Torre(const Torre& orig) {
 }
 

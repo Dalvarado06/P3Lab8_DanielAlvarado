@@ -16,6 +16,10 @@
 Alfil::Alfil() {
 }
 
+Alfil::Alfil(char pieza) : Pieza(pieza){
+    
+}
+
 Alfil::Alfil(const Alfil& orig) {
 }
 

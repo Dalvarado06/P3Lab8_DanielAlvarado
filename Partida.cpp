@@ -70,3 +70,7 @@ void Partida::guardarPartida(){
 string Partida::getPieza(){
     return pieza;
 }
+
+string Partida::getNombre(){
+    return nombrePartida;
+}

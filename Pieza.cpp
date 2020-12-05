@@ -16,7 +16,7 @@
 Pieza::Pieza() {
 }
 
-Pieza::Pieza(string pieza){
+Pieza::Pieza(char pieza){
     this->pieza = pieza;
 }
 
@@ -28,4 +28,8 @@ Pieza::~Pieza() {
 
 bool Pieza::validarMoviemiento(string movimiento){
     return false;
+}
+
+char Pieza::getPieza(){
+    return pieza;
 }

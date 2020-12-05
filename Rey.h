@@ -21,6 +21,8 @@ public:
     
     Rey();
     
+    Rey(char);
+    
     Rey(const Rey& orig);
     
     virtual ~Rey();

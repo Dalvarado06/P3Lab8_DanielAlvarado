@@ -16,6 +16,10 @@
 Reina::Reina() {
 }
 
+Reina::Reina(char pieza) : Pieza(pieza){
+    
+}
+
 Reina::Reina(const Reina& orig) {
 }
 

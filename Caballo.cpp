@@ -16,7 +16,7 @@
 Caballo::Caballo() {
 }
 
-Caballo::Caballo(string pieza) : Pieza(pieza){
+Caballo::Caballo(char pieza) : Pieza(pieza){
     
 }
 

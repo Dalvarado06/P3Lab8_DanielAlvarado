@@ -21,6 +21,8 @@ public:
     
     Reina();
     
+    Reina(char);
+    
     Reina(const Reina& orig);
     
     virtual ~Reina();

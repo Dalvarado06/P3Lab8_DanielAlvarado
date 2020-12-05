@@ -21,6 +21,8 @@ public:
     
     Peon();
     
+    Peon(char);
+    
     Peon(const Peon& orig);
     
     virtual ~Peon();

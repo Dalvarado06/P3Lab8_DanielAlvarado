@@ -21,6 +21,8 @@ public:
     
     Torre();
     
+    Torre(char);
+    
     Torre(const Torre& orig);
     
     virtual ~Torre();

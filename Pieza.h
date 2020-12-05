@@ -22,7 +22,7 @@ public:
     //Original
     Pieza();
     //sobrecargado
-    Pieza(string);
+    Pieza(char);
     //Copia
     Pieza(const Pieza& orig);
     //Destructor
@@ -31,9 +31,11 @@ public:
     //metodo polimorfico de validar movimiento
     virtual bool validarMoviemiento(string);
     
+    char getPieza();
+    
    
 private:
-    string pieza;
+    char pieza;
 };
 
 #endif /* PIEZA_H */
